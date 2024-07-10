@@ -1,14 +1,1 @@
-os
-re
-uuid
-socket
-threading
-base64
-datetime
-sys
-ssl
-imaplib
-time
 requests
-queue
-colorama
