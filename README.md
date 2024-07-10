@@ -19,3 +19,5 @@ The provided code is a Python application for cracking SMTP credentials using a 
 ### Note
 
 This application is intended for educational and ethical purposes only. Unauthorized use of this tool to access or crack SMTP servers without permission is illegal and unethical. Always ensure you have proper authorization before using such tools.
+
+[<img src="https://github.com/zinzied/Website-login-checker/assets/10098794/24f9935f-3637-4607-8980-06124c2d0225">](https://www.buymeacoffee.com/Zied)
