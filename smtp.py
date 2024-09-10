@@ -14,12 +14,14 @@ import queue
 from concurrent.futures import ThreadPoolExecutor
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
+import webbrowser
 
 class SMTPCrackerApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title('SMTP Cracker')
-        self.geometry('600x500')
+        self.geometry('600x600')
+        self.configure(bg='lightgray')  # Change the background color to light gray
         self.good_count = 0
         self.bad_count = 0
         self.stop_flag = threading.Event()
@@ -56,6 +58,15 @@ class SMTPCrackerApp(tk.Tk):
 
         self.log_text = scrolledtext.ScrolledText(self, state='disabled', width=70, height=20)
         self.log_text.pack()
+
+        # Add the "Developed by Zied Boughdir 2024" label
+        self.developer_label = tk.Label(self, text="Developed by Zied Boughdir 2024")
+        self.developer_label.pack()
+
+        # Add the clickable GitHub link
+        self.github_link = tk.Label(self, text="GitHub: https://github.com/zinzied", fg="blue", cursor="hand2")
+        self.github_link.pack()
+        self.github_link.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/zinzied"))
 
     def browse_combo_file(self):
         filename = filedialog.askopenfilename(filetypes=[("Text files", "*.txt"), ("All files", "*.*")])
