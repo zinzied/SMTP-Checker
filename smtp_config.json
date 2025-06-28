@@ -1,0 +1,32 @@
+{
+    "smtp_hosts": [
+        "",
+        "smtp.",
+        "mail.",
+        "webmail.",
+        "secure.",
+        "plus.smtp.",
+        "smtp.mail.",
+        "smtp.att.",
+        "pop3.",
+        "securesmtp.",
+        "outgoing.",
+        "smtp-mail.",
+        "plus.smtp.mail.",
+        "Smtpauths.",
+        "Smtpauth."
+    ],
+    "smtp_ports": [
+        587,
+        465,
+        25
+    ],
+    "connection_timeout": 13,
+    "max_threads": 1000,
+    "default_threads": 50,
+    "test_email": "test@example.com",
+    "save_results": true,
+    "results_format": "both",
+    "log_level": "INFO",
+    "auto_save_config": true
+}
