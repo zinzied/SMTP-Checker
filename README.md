@@ -104,7 +104,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Zied Boughdir** - [GitHub](https://github.com/zinzied)
 
-Enhanced with AI assistance for improved functionality and user experience.
 
 ---
 
